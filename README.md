@@ -26,6 +26,7 @@ or
 Add the following line to your podfile:
 ```
 pod 'LaunchDarkly'
+pod 'launch-darkly-react-native', path: '../node_modules/launch-darkly-react-native'
 ```
 and run
 ```

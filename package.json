@@ -13,6 +13,7 @@
     "launch darkly"
   ],
   "author": "Infinitix <contact@infinitix.io>",
+  "homepage": "https://github.com/orel91/launch-darkly-react-native",
   "license": "MIT",
   "repository": {
     "type": "git",
