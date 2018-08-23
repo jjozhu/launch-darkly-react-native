@@ -17,10 +17,6 @@ or
 
 ``$ yarn add launch-darkly-react-native --save``
 
-### Mostly automatic installation
-
-`$ react-native link launch-darkly-react-native`
-
 #### iOS:
 
 Add the following line to your podfile:
@@ -35,12 +31,7 @@ pod install
 
 #### Android:
 
-/!\ The Android project has not been updated from the original fork and has not been tested yet!
-
-Add line bellow at the bottom of your app/build.gradle
-  ```
-  configurations.all { resolutionStrategy.force 'com.squareup.okhttp3:okhttp:3.4.1' }
-  ```
+See manual directions.
 
 ### Manual installation
 
@@ -52,8 +43,6 @@ Add line bellow at the bottom of your app/build.gradle
 3. In XCode, in the project navigator, select your project. Add `libRNLaunchDarkly.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 
 #### Android
-
-/!\ The Android project has not been updated from the original fork and has not been tested yet!
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
   - Add `import com.reactlibrary.RNLaunchDarklyPackage;` to the imports at the top of the file
@@ -67,10 +56,6 @@ Add line bellow at the bottom of your app/build.gradle
   	```
       compile project(':launch-darkly-react-native')
   	```
-4. Add line bellow at the bottom of your app/build.gradle
-    ```
-    configurations.all { resolutionStrategy.force 'com.squareup.okhttp3:okhttp:3.4.1' }
-    ```
 
 
 ## Usage
